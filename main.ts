@@ -6,12 +6,9 @@
  */
 
 //variables
-let integeramount: number;
+const integeramount = Number(prompt("How many integers are going to be added?"));
 let integer: number;
 let total: number = 0;
-
-//declaring "integeramount"
-integeramount = Number(prompt("How many integers are going to be added?"));
 
 //loop
 for
